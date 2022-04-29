@@ -1,0 +1,117 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  margin: 0;
+  background: #35271f;
+}
+
+.container {
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  background: #361b0c;
+  margin: 50px auto 0 auto;
+  border: 6px outset rgb(251, 204, 129);
+  padding: 50px 80px;
+  width: 800px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.results {
+  padding: 50px 30px;
+  display: inline-block;
+}
+
+.result-image {
+  width: 150px;
+  border: 4px outset rgb(251, 204, 129);
+}
+
+.results-title {
+  font-size: 42px;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.card {
+  display: inline-block;
+  max-width: 150px;
+  margin: 15px;
+  transition: 0.5s;
+  padding: 0px 5px;
+  color:#361b0c;
+}
+
+.card:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.cardTitle {
+  font-size: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.info {
+  text-align: center;
+  border-top: 5px inset rgb(251, 204, 129);
+}
+
+.info-image {
+  width: 350px;
+  margin: 20px;
+  border: 4px outset rgb(251, 204, 129);
+}
+
+.search-input {
+  border: 2px outset rgb(251, 204, 129);
+  background: #361b0c;
+  color: white;
+  padding: 20px 18px;
+  font-size: 24px;
+}
+
+.btn {
+  border: 2px outset rgb(251, 204, 129);
+  background: #361b0c;
+  color: white;
+  padding: 20px 18px;
+  font-size: 24px;
+}
+
+.btn:hover {
+  background: white;
+  color: #361b0c;
+  border-color: #361b0c;
+}
+
+.miscellaneous {
+  text-align: center;
+  border-bottom: 2px dotted rgb(251, 204, 129);
+  border-top: 2px solid rgb(251, 204, 129);
+  padding: 20px 18px;
+}
+
+.instructions {
+  padding: 20px 18px;
+  font-style: italic;
+  text-align: left;
+  font-size: 20px;
+}
+
+.ingredient {
+  padding: 7px 12px;
+  font-size: 18px;
+  margin: 8px;
+  border-radius: 4px;
+  border: 1px dotted rgb(251, 204, 129);
+  background: #2d1304;
+  color: white;
+  display: inline-block;
+}

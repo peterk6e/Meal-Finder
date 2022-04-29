@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Meal Finder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Meal Finder</h1>
+      <div class="search" id="search-block">
+        <input
+          class="search-input"
+          id="search-input"
+          type="text"
+          placeholder="Search a meal"
+        />
+        <button class="btn" id="search-btn" onclick="search()">Search</button>
+        <button class="btn" id="random-btn" onclick="randomSearch()">I'm Lucky</button>
+      </div>
+
+      <div class="results" id="results">
+        <div class="cards" id="cards"></div>
+      </div>
+      <div class="info" id="info">
+        <div class="results-title" id="results-title"></div>
+        <div id="selected-meal"></div>
+        <div class="miscellaneous" id="miscellaneous"></div>
+        <div class="instructions" id="instructions"></div>
+      </div>
+      <div class="ingredients" id="ingredients"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
